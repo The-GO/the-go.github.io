@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Image on 暮夜晨曦</title><link>https://the-go.github.io/tags/image/</link><description>Recent content in Image on 暮夜晨曦</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Fri, 15 Mar 2024 06:36:11 +0800</lastBuildDate><atom:link href="https://the-go.github.io/tags/image/index.xml" rel="self" type="application/rss+xml"/><item><title>图片防盗链</title><link>https://the-go.github.io/p/%E5%9B%BE%E7%89%87%E9%98%B2%E7%9B%97%E9%93%BE/</link><pubDate>Fri, 15 Mar 2024 06:36:11 +0800</pubDate><guid>https://the-go.github.io/p/%E5%9B%BE%E7%89%87%E9%98%B2%E7%9B%97%E9%93%BE/</guid><description>使用描述很详细，这里只记录能在博客使用图片的方法，图床的话这里斟酌使用。 全站图片使用，在&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;头</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Image on 暮夜晨曦</title><link>https://the-go.github.io/tags/image/</link><description>Recent content in Image on 暮夜晨曦</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Fri, 15 Mar 2024 06:36:11 +0800</lastBuildDate><atom:link href="https://the-go.github.io/tags/image/index.xml" rel="self" type="application/rss+xml"/><item><title>图片防盗链</title><link>https://the-go.github.io/p/%E5%9B%BE%E7%89%87%E9%98%B2%E7%9B%97%E9%93%BE/</link><pubDate>Fri, 15 Mar 2024 06:36:11 +0800</pubDate><guid>https://the-go.github.io/p/%E5%9B%BE%E7%89%87%E9%98%B2%E7%9B%97%E9%93%BE/</guid><description>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/2006766f2234cfbf6fa99f52ea8b851a.png" alt="Featured image of post 图片防盗链" />&lt;blockquote>
+&lt;p>使用描述很详细，这里只记录能在博客使用图片的方法，图床的话这里斟酌使用。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="全站图片使用在headhead头部中添加">全站图片使用，在&lt;code>&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&lt;/code>头部中添加&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;referrer&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;no-referrer&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="单个图片使用">单个图片使用&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;xxx&amp;#34;&lt;/span> &lt;span class="na">referrerpolicy&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;no-referrer&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="新窗口打开">新窗口打开&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;noreferrer&amp;#34;&lt;/span> &lt;span class="na">target&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;_blank&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="测试">测试&lt;/h4>
+&lt;p>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/51546ff5b333bdf55d2c24337e310459.png"
+loading="lazy"
+alt="动漫"
+>&lt;/p>
+&lt;p>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/443917193d615ba1cedfac27dadf508a.webp"
+loading="lazy"
+alt="波妞宗介"
+>&lt;/p>
+&lt;p>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/debdf5a6ae808c32b3eabfd8b5d4a30e.png"
+loading="lazy"
+alt="天空"
+>&lt;/p></description></item></channel></rss>

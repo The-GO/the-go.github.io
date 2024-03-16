@@ -1,1 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 暮夜晨曦</title><link>https://the-go.github.io/post/</link><description>Recent content in Posts on 暮夜晨曦</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Sat, 16 Mar 2024 08:03:35 +0800</lastBuildDate><atom:link href="https://the-go.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>部署Caddy2，快速配置反向代理。</title><link>https://the-go.github.io/p/%E9%83%A8%E7%BD%B2caddy2%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</link><pubDate>Sat, 16 Mar 2024 08:03:35 +0800</pubDate><guid>https://the-go.github.io/p/%E9%83%A8%E7%BD%B2caddy2%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</guid><description>安装Caddy2 1 2 3 4 5 sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https curl -1sLf &amp;#39;https://dl.cloudsmith.io/public/caddy/stable/gpg.key&amp;#39; | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg curl -1sLf &amp;#39;https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt&amp;#39; | sudo tee /etc/apt/sources.list.d/caddy-stable.list sudo apt update sudo apt install caddy 编辑Caddyfile文件 1 vi /etc/caddy/Caddyfile 配置反向代理 1 2 3 xx.xx.xx{ reverse_proxy</description></item><item><title>图片防盗链</title><link>https://the-go.github.io/p/%E5%9B%BE%E7%89%87%E9%98%B2%E7%9B%97%E9%93%BE/</link><pubDate>Fri, 15 Mar 2024 06:36:11 +0800</pubDate><guid>https://the-go.github.io/p/%E5%9B%BE%E7%89%87%E9%98%B2%E7%9B%97%E9%93%BE/</guid><description>使用描述很详细，这里只记录能在博客使用图片的方法，图床的话这里斟酌使用。 全站图片使用，在&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;头</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 暮夜晨曦</title><link>https://the-go.github.io/post/</link><description>Recent content in Posts on 暮夜晨曦</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Sat, 16 Mar 2024 08:03:35 +0800</lastBuildDate><atom:link href="https://the-go.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>部署Caddy2，快速配置反向代理。</title><link>https://the-go.github.io/p/%E9%83%A8%E7%BD%B2caddy2%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</link><pubDate>Sat, 16 Mar 2024 08:03:35 +0800</pubDate><guid>https://the-go.github.io/p/%E9%83%A8%E7%BD%B2caddy2%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</guid><description>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/75524617ad09ea075ba639c9d8c5f5c0.jpg" alt="Featured image of post 部署Caddy2，快速配置反向代理。" />&lt;h4 id="安装caddy2">安装Caddy2&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">curl -1sLf &lt;span class="s1">&amp;#39;https://dl.cloudsmith.io/public/caddy/stable/gpg.key&amp;#39;&lt;/span> &lt;span class="p">|&lt;/span> sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">curl -1sLf &lt;span class="s1">&amp;#39;https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt&amp;#39;&lt;/span> &lt;span class="p">|&lt;/span> sudo tee /etc/apt/sources.list.d/caddy-stable.list
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt update
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt install caddy
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="编辑caddyfile文件">编辑Caddyfile文件&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">vi /etc/caddy/Caddyfile
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="配置反向代理">配置反向代理&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">xx.xx.xx&lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> reverse_proxy localhost:8000
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="其他caddy命令">其他Caddy命令&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">systemctl &lt;span class="nb">enable&lt;/span> caddy.service &lt;span class="c1"># 开机启动&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl start caddy.service &lt;span class="c1"># 启动&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl stop caddy.service &lt;span class="c1"># 停止&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl restart caddy.service &lt;span class="c1"># 重启&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl status caddy.service &lt;span class="c1"># 查看状态&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl daemon-reload &lt;span class="c1"># 重载配置&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>图片防盗链</title><link>https://the-go.github.io/p/%E5%9B%BE%E7%89%87%E9%98%B2%E7%9B%97%E9%93%BE/</link><pubDate>Fri, 15 Mar 2024 06:36:11 +0800</pubDate><guid>https://the-go.github.io/p/%E5%9B%BE%E7%89%87%E9%98%B2%E7%9B%97%E9%93%BE/</guid><description>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/2006766f2234cfbf6fa99f52ea8b851a.png" alt="Featured image of post 图片防盗链" />&lt;blockquote>
+&lt;p>使用描述很详细，这里只记录能在博客使用图片的方法，图床的话这里斟酌使用。&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="全站图片使用在headhead头部中添加">全站图片使用，在&lt;code>&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&lt;/code>头部中添加&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;referrer&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;no-referrer&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="单个图片使用">单个图片使用&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;xxx&amp;#34;&lt;/span> &lt;span class="na">referrerpolicy&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;no-referrer&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="新窗口打开">新窗口打开&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;noreferrer&amp;#34;&lt;/span> &lt;span class="na">target&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;_blank&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="测试">测试&lt;/h4>
+&lt;p>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/51546ff5b333bdf55d2c24337e310459.png"
+loading="lazy"
+alt="动漫"
+>&lt;/p>
+&lt;p>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/443917193d615ba1cedfac27dadf508a.webp"
+loading="lazy"
+alt="波妞宗介"
+>&lt;/p>
+&lt;p>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/debdf5a6ae808c32b3eabfd8b5d4a30e.png"
+loading="lazy"
+alt="天空"
+>&lt;/p></description></item></channel></rss>

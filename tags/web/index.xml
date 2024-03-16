@@ -1,1 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web on 暮夜晨曦</title><link>https://the-go.github.io/tags/web/</link><description>Recent content in Web on 暮夜晨曦</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Sat, 16 Mar 2024 08:03:35 +0800</lastBuildDate><atom:link href="https://the-go.github.io/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>部署Caddy2，快速配置反向代理。</title><link>https://the-go.github.io/p/%E9%83%A8%E7%BD%B2caddy2%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</link><pubDate>Sat, 16 Mar 2024 08:03:35 +0800</pubDate><guid>https://the-go.github.io/p/%E9%83%A8%E7%BD%B2caddy2%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</guid><description>安装Caddy2 1 2 3 4 5 sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https curl -1sLf &amp;#39;https://dl.cloudsmith.io/public/caddy/stable/gpg.key&amp;#39; | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg curl -1sLf &amp;#39;https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt&amp;#39; | sudo tee /etc/apt/sources.list.d/caddy-stable.list sudo apt update sudo apt install caddy 编辑Caddyfile文件 1 vi /etc/caddy/Caddyfile 配置反向代理 1 2 3 xx.xx.xx{ reverse_proxy</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web on 暮夜晨曦</title><link>https://the-go.github.io/tags/web/</link><description>Recent content in Web on 暮夜晨曦</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Sat, 16 Mar 2024 08:03:35 +0800</lastBuildDate><atom:link href="https://the-go.github.io/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>部署Caddy2，快速配置反向代理。</title><link>https://the-go.github.io/p/%E9%83%A8%E7%BD%B2caddy2%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</link><pubDate>Sat, 16 Mar 2024 08:03:35 +0800</pubDate><guid>https://the-go.github.io/p/%E9%83%A8%E7%BD%B2caddy2%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</guid><description>&lt;img src="https://p.ananas.chaoxing.com/star3/origin/75524617ad09ea075ba639c9d8c5f5c0.jpg" alt="Featured image of post 部署Caddy2，快速配置反向代理。" />&lt;h4 id="安装caddy2">安装Caddy2&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">curl -1sLf &lt;span class="s1">&amp;#39;https://dl.cloudsmith.io/public/caddy/stable/gpg.key&amp;#39;&lt;/span> &lt;span class="p">|&lt;/span> sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">curl -1sLf &lt;span class="s1">&amp;#39;https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt&amp;#39;&lt;/span> &lt;span class="p">|&lt;/span> sudo tee /etc/apt/sources.list.d/caddy-stable.list
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt update
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt install caddy
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="编辑caddyfile文件">编辑Caddyfile文件&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">vi /etc/caddy/Caddyfile
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="配置反向代理">配置反向代理&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">xx.xx.xx&lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> reverse_proxy localhost:8000
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="其他caddy命令">其他Caddy命令&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">systemctl &lt;span class="nb">enable&lt;/span> caddy.service &lt;span class="c1"># 开机启动&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl start caddy.service &lt;span class="c1"># 启动&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl stop caddy.service &lt;span class="c1"># 停止&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl restart caddy.service &lt;span class="c1"># 重启&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl status caddy.service &lt;span class="c1"># 查看状态&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl daemon-reload &lt;span class="c1"># 重载配置&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
